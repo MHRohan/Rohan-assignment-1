@@ -42,6 +42,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: #4b57ff;
 }
 
 /* Hero Section */
@@ -93,27 +94,50 @@ body {
 
 /* Stats Section */
 .stats-section {
-  background: #6e6ae6;
-  padding: 40px 20px;
-  text-align: center;
-  
+  background: #eef0ff;
+  padding: 60px 20px;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 40px auto;
 }
 
 .stats-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.stat-box h3 {
-  color: #0000ff;
-  font-size: 28px;
   text-align: center;
 }
 
-.stat-box h4 {
-  color: #0000ff;
-  font-size: 28px;
+.stats-container h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #111;
 }
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 150px;
+}
+
+.stat-item h4 {
+  font-size: 32px;
+  color: #4b57ff;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #666;
+}
+
+
 
 /* Testimonials */
 .testimonials-section {
@@ -211,7 +235,9 @@ body {
 .contact-section {
   background: #fff;
   padding: 40px 20px;
-  text-align: center;
+  text-align: left;
+  font-size: 40pxpx;
+  justify-content: space-between;
 }
 
 .contact-form {
