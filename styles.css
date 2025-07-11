@@ -93,9 +93,10 @@ body {
 
 /* Stats Section */
 .stats-section {
-  background: #f1f1f1;
+  background: #6e6ae6;
   padding: 40px 20px;
   text-align: center;
+  
 }
 
 .stats-container {
@@ -103,9 +104,14 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.stat-box h3 {
+  color: #0000ff;
+  font-size: 28px;
+  text-align: center;
+}
 
 .stat-box h4 {
-  color: #4b57ff;
+  color: #0000ff;
   font-size: 28px;
 }
 
