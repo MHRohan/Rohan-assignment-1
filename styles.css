@@ -18,6 +18,14 @@
   color: #4E47FF;
   font-weight: bold;
 }
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 0px;
+    border: none;
+}
 
 /* Nav styles */
 nav {
