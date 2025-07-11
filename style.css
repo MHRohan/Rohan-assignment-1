@@ -20,7 +20,7 @@ body {
 
 .btn {
   background-color: #4b57ff;
-  color: #fafafc;
+  color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 6px;
@@ -58,7 +58,7 @@ body {
   align-items: center;
 
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: white;
   padding: 20px;
 }
 
@@ -111,84 +111,13 @@ body {
 
 /* Testimonials */
 .testimonials-section {
-  background: #f8f8ff;
-  padding: 60px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
-.testimonials-section h3 {
-  font-size: 24px;
-  margin-bottom: 40px;
-  font-weight: 600;
-  color: #111;
+.testimonial {
+  margin: 20px 0;
 }
-
-.testimonials-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.testimonial-card {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  padding: 20px;
-  max-width: 280px;
-  text-align: left;
-  transition: transform 0.2s ease;
-}
-
-.testimonial-card:hover {
-  transform: translateY(-5px);
-}
-
-.testimonial-card .stars {
-  font-size: 18px;
-  color: #ffc107;
-  margin-bottom: 10px;
-}
-
-.testimonial-card h4 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 600;
-  color: #111;
-}
-
-.testimonial-card .message {
-  font-size: 14px;
-  color: #555;
-  margin: 10px 0 15px;
-}
-
-.reviewer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.reviewer img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.reviewer .name {
-  font-size: 14px;
-  font-weight: 500;
-  margin: 0;
-}
-
-.reviewer .date {
-  font-size: 12px;
-  color: #888;
-  margin: 0;
-}
-
-
 
 /* Focus Section */
 .focus-section {
@@ -205,7 +134,6 @@ body {
 .contact-section {
   background: #fff;
   padding: 40px 20px;
-  text-align: center;
 }
 
 .contact-form {
@@ -213,26 +141,23 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .contact-form input,
 .contact-form textarea {
-   padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
 }
 
 .contact-form button {
   background-color: #4b57ff;
   color: white;
-  padding: 14px;
+  padding: 12px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
 }
 
 /* Footer */
