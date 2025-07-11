@@ -31,6 +31,7 @@ body {
 .site-header {
   background-color: #fff;
   padding: 20px 0;
+  background-image: url('Hero-bg.png');
 }
 
 .header-container {
@@ -231,45 +232,114 @@ body {
   border-radius: 10px;
 }
 
-/* Contact */
+/* Contact Section */
 .contact-section {
-  background: #fff;
-  padding: 40px 20px;
-  text-align: left;
-  font-size: 40pxpx;
+  background-color: #f5f7ff;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
   justify-content: space-between;
+  gap: 60px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-left h2 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #111;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
 }
 
 .contact-form {
-  max-width: 400px;
-  margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
 }
 
 .contact-form input,
 .contact-form textarea {
-   padding: 12px;
+  padding: 12px 16px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Inter', sans-serif;
+  border-radius: 6px;
   font-size: 14px;
 }
 
-.contact-form button {
-  background-color: #4b57ff;
-  color: white;
-  padding: 14px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
 }
 
-/* Footer */
-.site-footer {
-  background-color: #f1f1f1;
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px;
+  background-color: #4b57ff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #3d48e0;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #ffffff;
+  padding: 60px 20px;
   text-align: center;
-  padding: 20px 0;
+}
+
+.footer-logo {
+  color: #4b57ff;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  color: #777;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav li a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #4b57ff;
 }
