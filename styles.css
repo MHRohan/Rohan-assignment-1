@@ -8,40 +8,39 @@
     "wdth" 100;
 }
 
-/* share style */
-.text-primary{
-    color: #4E47FF;
+/* shared style */
+.text-primary {
+  color: #4E47FF;
 }
- 
-/*text color for logo & text box*/
-.bold s{
-    color: #4E47FF ;
+
+/* text color for logo & text box */
+.bold {
+  color: #4E47FF;
+  font-weight: bold;
 }
 
 /* Nav styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-title{
- font-size: 34px;
- font-weight: 900;
+.nav-title {
+  font-size: 34px;
+  font-weight: 900;
 }
 
-nav  ul{
-    display: flex;
+nav ul {
+  display: flex;
+  gap: 40px; /* or use margin inside li */
 }
 
 nav ul li {
-    list-style: none;
-    margin-right: 150;
-    margin-left: 150;
-    margin-top: 50;
+  list-style: none;
 }
 
 nav li a {
-    text-decoration: none;
-    font-size: 20px;
+  text-decoration: none;
+  font-size: 20px;
 }
